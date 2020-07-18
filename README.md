@@ -4,11 +4,11 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 1 - Init a project React JS CLI:
 	
 	- run yarn create react-app name
-================================================================================================================================================
+	
 2 - Start project
 
 	- run yarn start
-================================================================================================================================================
+
 3 - ESLINT:
 	
 	- install ESLINT:
@@ -30,4 +30,3 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 		- select: Airbnb
 
 		- select: JavaScript
-================================================================================================================================================
