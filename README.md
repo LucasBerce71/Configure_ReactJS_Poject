@@ -11,7 +11,11 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 	
 3 - React libs
 
-	- run for install yarn add react-router-dom
+	- React-Router-Dom
+		- run yarn add react-router-dom
+	- Styled Components
+		
+		- run yarn add styled-components
 
 4 - ESLINT:
 	
