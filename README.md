@@ -8,8 +8,12 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 2 - Start project
 
 	- run yarn start
+	
+3 - React libs
 
-3 - ESLINT:
+	- run for install yarn add react-router-dom
+
+4 - ESLINT:
 	
 	- install ESLINT:
 
@@ -31,13 +35,13 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 
 		- select: JavaScript
 		
-4 - Prettier install:
+5 - Prettier install:
 
 	- install Prettier:
 	
 		- run yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 		
-5 - Config .eslintrc.js file:
+6 - Config .eslintrc.js file:
 
 
 	module.exports = {
@@ -73,7 +77,7 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 	  },
 	};
 
-6 - Config .prettierrc file:
+7 - Config .prettierrc file:
 
 	{
 	  "singleQuote": true,
