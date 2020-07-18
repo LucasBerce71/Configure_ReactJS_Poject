@@ -31,7 +31,7 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 
 		- select: JavaScript
 		
-4 - Prettier:
+4 - Prettier install:
 
 	- install Prettier:
 	
@@ -73,3 +73,9 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 	  },
 	};
 
+6 - Config .prettierrc file:
+
+	{
+	  "singleQuote": true,
+	  "trailingComma": "es5"
+	}
