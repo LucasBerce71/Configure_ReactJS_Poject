@@ -32,5 +32,32 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 		- select: JavaScript
 		
 4 - Prettier:
+
 	- install Prettier:
+	
 		- run yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+		
+5 - Config .eslintrc.js file:
+
+	module.exports = {
+  		env: {
+    			browser: true,
+    			es2020: true,
+  		},
+  	extends: [
+    		'plugin:react/recommended',
+    		'airbnb',
+  	],
+  	parserOptions: {
+    		ecmaFeatures: {
+      			jsx: true,
+    		},
+    		ecmaVersion: 11,
+    		sourceType: 'module',
+  	},
+  	plugins: [
+    		'react',
+  	],
+  	rules: {
+  	},
+};
