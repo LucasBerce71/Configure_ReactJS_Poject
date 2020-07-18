@@ -13,9 +13,9 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 	
 	- install ESLINT:
 
-		- yarn add eslint -D
+		- run yarn add eslint -D
 
-		- yarn eslint --init
+		- run yarn eslint --init
 
 		- select: To check syntax, find problems, and enforce code style
 
@@ -30,3 +30,7 @@ Configurações e preferências de padrões de código em um projeto ReactJS CLI
 		- select: Airbnb
 
 		- select: JavaScript
+		
+4 - Prettier:
+	- install Prettier:
+		- run yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
